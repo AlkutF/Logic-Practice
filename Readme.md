@@ -1,2 +1,2 @@
 # Indicaciones
-Esta actividad inluye ejercicios logicos que se han presentado a lo largo de competencias de programacion a las que he asistido , cada una sera solucionada en un JS , las mismas contendran el enunciado de la pregunta el proceso logico seguido para resolverlo y una posible solucion 
+Esta actividad inluye ejercicios logicos que he visto a lo largo de mi estudio y como he logrado solucionarlos , se intentara subir un ejercicio cada dia , iniciando por ejercicios realizados en clases y cuando estos se acaben ejercicios de internet
