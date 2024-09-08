@@ -1,0 +1,2 @@
+# Indicaciones
+Esta actividad inluye ejercicios logicos que se han presentado a lo largo de competencias de programacion a las que he asistido , cada una sera solucionada en un JS , las mismas contendran el enunciado de la pregunta el proceso logico seguido para resolverlo y una posible solucion 
