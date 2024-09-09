@@ -1,2 +1,2 @@
-# Indicaciones
-Esta actividad inluye ejercicios logicos que he visto a lo largo de mi estudio y como he logrado solucionarlos , se intentara subir un ejercicio cada dia , iniciando por ejercicios realizados en clases y cuando estos se acaben ejercicios de internet
+# Logic practices
+This activity includes logical exercises that I have seen throughout my study and how I have managed to solve them, we will try to upload an exercise every day, starting with exercises done in class and when they run out, exercises from the internet.
