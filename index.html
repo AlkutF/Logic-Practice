@@ -6,8 +6,7 @@
     <title>Ejercicios logicos</title>
 </head>
 <body>
-    <h2>Ejercicio 1</h2>
-    <div class="ejercicio1">
+    <!--<div class="ejercicio1">
         <p>Ingrese los datos académicos de un curso de estudiantes (Nombre, Materia, Notas) y emita un listado ordenado de acuerdo a los promedios académicos. El maestro debe poder seleccionar la materia y solo se verá las notas del alumno en esa materia. No se puede usar base de datos o archivos planos.</p>
         <form method="post" name="ejercicio1" id="ejercicio1">
             <label for="materia">Seleccione la materia</label>
@@ -22,7 +21,6 @@
             <input type="text" name="notas" id="notas">
             <input type="submit" value="Enviar">
         </form>
-        
         <form method="post" name="filtrar" id="filtrar">
             <label for="materiaFiltro">Seleccione la materia para ver los promedios</label>
             <select name="materiaFiltro" id="materiaFiltro">
@@ -32,11 +30,35 @@
             </select>
             <input type="button" value="Cargar promedios" id="cargarPromedios">
         </form>
-        
         <h3>Listado de alumnos</h3>
         <div id="listado"></div>
+    </div>-->
+    <div class="ejercicio2"> 
+       <p>Generar una matriz en base a los valores dados por el usuario y colocar valores al azar ,
+        el usuario debe poder seleccionar una fila y una columna y el sistema debe mostrar el valor 
+        de esa posición.</p>
+        <form method="post" name="ejercicio2" id="ejercicio2">
+            <label for="filas">Ingrese el número de filas</label>
+            <input type="number" name="filas" id="filas">
+            <label for="columnas">Ingrese el número de columnas</label>
+            <input type="number" name="columnas" id="columnas">
+            <input type="submit" value="Enviar">
+        </form>
+        <h3>Matriz</h3>
+        <div id="matriz"></div>
+        <form method="post">
+            <label for="selectFilas">Seleccione la fila</label>
+            <select name="selectFilas" id="selectFilas"></select>
+            <label for="selectColumnas">Seleccione la columna</label>
+            <select name="selectColumnas" id="selectColumnas"></select>
+            <input type="button" value="Mostrar valor" id="mostrarValor">
+        </form>
+        <h3>Valor de la posición</h3>
+        <div id="valor"></div>
     </div>
 
-    <script src="js/ejercicio1.js"></script>
+
+    <!--<script src="js/ejercicio1.js"></script>-->
+    <script src="js/ejercicio2.js"></script>
 </body>
 </html>
