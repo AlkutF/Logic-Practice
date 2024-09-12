@@ -33,8 +33,6 @@ function llenarSelects(filas , columnas){
 }
 
 document.getElementById("mostrarValor").addEventListener('click', function() {
-    const filas = parseInt(document.getElementById("filas").value);
-    const columnas = parseInt(document.getElementById("columnas").value);
     const selectFilas = parseInt(document.getElementById("selectFilas").value);
     const selectColumnas = parseInt(document.getElementById("selectColumnas").value);
     const celda = document.getElementById(`celda-${selectColumnas}-${selectFilas}`);
