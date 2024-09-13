@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="ejercicio1">
+    
+        <form method="post" name="ejercicio1" id="ejercicio1">
+            <label for="materia">Seleccione la materia</label>
+            <select name="materia" id="materia">
+                <option value="matematicas">Matemáticas</option>
+                <option value="fisica">Física</option>
+                <option value="programacion">Programación</option>
+            </select>
+            <label for="nombre">Ingrese el nombre del alumno</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="notas">Ingrese las notas del alumno separadas con una coma (,)</label>
+            <input type="text" name="notas" id="notas">
+            <input type="submit" value="Enviar">
+        </form>
+        <form method="post" name="filtrar" id="filtrar">
+            <label for="materiaFiltro">Seleccione la materia para ver los promedios</label>
+            <select name="materiaFiltro" id="materiaFiltro">
+                <option value="matematicas">Matemáticas</option>
+                <option value="fisica">Física</option>
+                <option value="programacion">Programación</option>
+            </select>
+            <input type="button" value="Cargar promedios" id="cargarPromedios">
+        </form>
+        <h3>Listado de alumnos</h3>
+        <div id="listado"></div>
+    </div>
+    <script src="/js/ejercicio1.js"></script>
+</body>
+</html>

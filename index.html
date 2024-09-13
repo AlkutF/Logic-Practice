@@ -3,72 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios logicos</title>
+    <title>Ejercicios lógicos</title>
 </head>
 <body>
-    <!--<div class="ejercicio1">
-        <p>Ingrese los datos académicos de un curso de estudiantes (Nombre, Materia, Notas) y emita un listado ordenado de acuerdo a los promedios académicos. El maestro debe poder seleccionar la materia y solo se verá las notas del alumno en esa materia. No se puede usar base de datos o archivos planos.</p>
-        <form method="post" name="ejercicio1" id="ejercicio1">
-            <label for="materia">Seleccione la materia</label>
-            <select name="materia" id="materia">
-                <option value="matematicas">Matemáticas</option>
-                <option value="fisica">Física</option>
-                <option value="programacion">Programación</option>
-            </select>
-            <label for="nombre">Ingrese el nombre del alumno</label>
-            <input type="text" name="nombre" id="nombre">
-            <label for="notas">Ingrese las notas del alumno separadas con una coma (,)</label>
-            <input type="text" name="notas" id="notas">
-            <input type="submit" value="Enviar">
-        </form>
-        <form method="post" name="filtrar" id="filtrar">
-            <label for="materiaFiltro">Seleccione la materia para ver los promedios</label>
-            <select name="materiaFiltro" id="materiaFiltro">
-                <option value="matematicas">Matemáticas</option>
-                <option value="fisica">Física</option>
-                <option value="programacion">Programación</option>
-            </select>
-            <input type="button" value="Cargar promedios" id="cargarPromedios">
-        </form>
-        <h3>Listado de alumnos</h3>
-        <div id="listado"></div>
-    </div>-->
-    <!--<div class="ejercicio2"> 
-       <p>Generar una matriz en base a los valores dados por el usuario y colocar valores al azar ,
-        el usuario debe poder seleccionar una fila y una columna y el sistema debe mostrar el valor 
-        de esa posición.</p>
-        <form method="post" name="ejercicio2" id="ejercicio2">
-            <label for="filas">Ingrese el número de filas</label>
-            <input type="number" name="filas" id="filas">
-            <label for="columnas">Ingrese el número de columnas</label>
-            <input type="number" name="columnas" id="columnas">
-            <input type="submit" value="Enviar">
-        </form>
-        <h3>Matriz</h3>
-        <div id="matriz"></div>
-        <form method="post">
-            <label for="selectFilas">Seleccione la fila</label>
-            <select name="selectFilas" id="selectFilas"></select>
-            <label for="selectColumnas">Seleccione la columna</label>
-            <select name="selectColumnas" id="selectColumnas"></select>
-            <input type="button" value="Mostrar valor" id="mostrarValor">
-        </form>
-        <h3>Valor de la posición</h3>
-        <div id="valor"></div>
-    </div>-->
-    <div class="ejercicio3">
-        <p>Generar un programa que pueda sumar dos matrices, pudiendo ser estas de distintas dimensiones</p>
-        <form name="ejercicio3" id="ejercicio3" method="post">
-            <label for="numeroMatrices">Ingrese el número de matrices a calcular</label>
-            <input type="number" id="numeroMatrices" min="2"> 
-            <input type="submit" value="Crear matrices">
-        </form>
-        <div class="matrices" id="matrices"></div>
-        <div id="matricesGeneradas"></div>
-        <div id="resultadoSuma"></div>
-    </div>
-    <!--<script src="js/ejercicio1.js"></script>-->
-    <!--<script src="js/ejercicio2.js"></script>-->
-    <script src="js/ejercicio3.js"></script>
+    <a href="Exercises/ejercicio1.html">
+        <div class="exercise">
+            <p>Ejercicio 1</p>
+            <small>Introduce los datos académicos de un grupo de estudiantes (Nombre, Materia, Notas) 
+                y genera un listado ordenado por promedio. El maestro debe poder seleccionar una materia 
+                y ver solo las notas de los alumnos en esa asignatura. No se permite el uso de bases de 
+                datos ni archivos externos.</small>
+        </div>
+    </a>
+    <a href="Exercises/ejercicio2.html">
+        <div class="exercise">
+            <p>Ejercicio 2</p>
+            <small>Genera una matriz con valores ingresados por el usuario, rellenando el resto con números aleatorios. 
+                El usuario debe poder seleccionar una fila y una columna, y el sistema mostrará el valor en esa posición.</small>
+        </div>
+    </a>
+    <a href="Exercises/ejercicio3.html">
+        <div class="exercise">
+            <p>Ejercicio 3</p>
+            <small>Crea un programa que sume dos matrices, independientemente de sus dimensiones.</small>
+        </div>
+    </a>
+    <a href="Exercises/ejercicio4.html">
+        <div class="exercise">
+            <p>Ejercicio 4</p>
+            <small>Desarrolla un programa que calcule el producto de varias matrices. Todas deben tener el mismo número de filas y columnas. 
+                El usuario debe decidir cuántas matrices quiere multiplicar.</small>
+        </div>
+    </a>
 </body>
 </html>
