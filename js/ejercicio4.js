@@ -67,7 +67,7 @@ function multiplicarMatrices(matriz1, matriz2) {
     const columnasMatriz1 = matriz1[0].length;
     const filasMatriz2 = matriz2.length;
     const columnasMatriz2 = matriz2[0].length;
-
+    
     if (columnasMatriz1 !== filasMatriz2) {
         throw new Error("No se pueden multiplicar las matrices: el número de columnas de la primera matriz debe ser igual al número de filas de la segunda matriz.");
     }
