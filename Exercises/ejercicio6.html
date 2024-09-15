@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ejercicio6">
+        <form id="numerodeVectores" method="post">
+            <label for="vectorInput">Ingrese el número de magnitudes del vector:</label>
+            <input type="number" id="vectorInput" min="2" required>
+            <input type="button" value="Crear espacios para ingresar valores" id="crearInputs">
+            <div id="vectores"></div>
+            <input type="submit" value="Enviar valores" style="display:none;" id="submitButton">
+        </form>
+    </div>
+    <div id="original"></div>
+    <div id="primos"></div>
+    <div id="compuestos"></div>
+    <script src="/js/ejercicio6.js"></script>
+</body>
+</html>
